@@ -112,7 +112,7 @@
         <script>
         function showMailingPopUp() {
             require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us6.list-manage.com","uuid":"197727fb3fa39e342363ebee8","lid":"2ea5c8168d"}) })
-            document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+            document.cookie = 'MCEvilPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
         };
         document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
         </script>
