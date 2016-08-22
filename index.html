@@ -36,7 +36,7 @@
                         <p>Technology that brings simple context to complex market data.</p>
                     </div>
                     <div class="btns">
-                        <a class="btn btn-large btn-primary" id="open-popup">Join the limited preview</a>
+                        <a id="open-popup" class="btn btn-large btn-primary">Join the limited preview</a>
                         <!-- <a class="btn btn-large btn-gray" href="#">Sign In</a> -->
                     </div>
                 </div>
@@ -87,7 +87,7 @@
 <section class="content-11">
     <div class="container">
         <span>Build and test models by simply asking a question.</span>
-        <a class="btn btn-large btn-danger" id="open-popup">Join the Limited Preview</a>
+        <a id="open-popup" class="btn btn-large btn-danger">Join the Limited Preview</a>
     </div>
 </section> 
 <footer class="footer-8">
@@ -111,11 +111,12 @@
 
         <script>
         function showMailingPopUp() {
-            require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us6.list-manage.com","uuid":"197727fb3fa39e342363ebee8","lid":"2ea5c8168d"}) })
-            document.cookie = 'MCEvilPopupClosed=;path=/;expires=Thu, 01 Jan 1970 00:00:00 UTC;';
+        require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us6.list-manage.com","uuid":"197727fb3fa39e342363ebee8","lid":"2ea5c8168d"}) })
+            document.cookie = "MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
         };
         document.getElementById("open-popup").onclick = function() {showMailingPopUp()};
         </script>
+
 
             <script src="startup/common-files/js/jquery-1.10.2.min.js"></script>
             <script src="startup/common-files/js/jquery.bxslider.min.js"></script>
